@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { NoteDataService } from '../note-data.service';
+
 @Component({
   selector: 'app-list',
   templateUrl: './list.component.html',
@@ -12,7 +14,7 @@ export class ListComponent implements OnInit {
   ];
   activeNote = -1;
 
-  constructor() { }
+  constructor(private noteService: NoteDataService) { }
 
   ngOnInit() {
   }
