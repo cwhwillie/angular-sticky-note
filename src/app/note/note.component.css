@@ -1,0 +1,11 @@
+/* Add application styles & imports to this file! */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+p {
+  font-family: Lato;
+}
+
+.note-content {
+  min-width: 100px;
+  border: 1px solid black;
+}
